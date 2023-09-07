@@ -1,0 +1,72 @@
+name: exoid
+description: Flutter Project by ITCoderz. Flutter SDK Version for this app is 3.10.5 .
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  get: ^4.6.5
+  flutter_launcher_icons: ^0.13.1
+  flutter_svg: ^2.0.7
+  font_awesome_flutter: ^10.5.0
+  pinput: ^2.2.31
+  qr_code_scanner: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.2
+
+flutter_icons:
+  image_path: "assets/images/app_icon/app_icon.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/images/
+    - assets/images/app_icon/
+    - assets/images/auth_images/
+    - assets/images/settings_images/
+    - assets/images/homepage_images/
+    - assets/images/generating_proof/
+    - assets/images/proof_requested_images/
+    - assets/images/bottom_nav_bar_images/
+    - assets/images/add_new_certificate/
+    - assets/images/app_bar_icons/
+    - assets/images/seed_phrase_reveal_images/
+
+  fonts:
+    - family: Gotham
+      fonts:
+        - asset: assets/fonts/gotham/Gotham-Light.ttf
+        - asset: assets/fonts/gotham/Gotham-Medium.ttf
+        - asset: assets/fonts/gotham/Gotham-Regular.ttf
+        - asset: assets/fonts/gotham/Gotham-Bold.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/Montserrat-Bold.ttf
+        - asset: assets/fonts/montserrat/Montserrat-Light.ttf
+        - asset: assets/fonts/montserrat/Montserrat-Medium.ttf
+        - asset: assets/fonts/montserrat/Montserrat-Regular.ttf
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/quicksand/Quicksand-Bold.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Light.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Medium.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Regular.ttf
+
